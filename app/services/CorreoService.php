@@ -6,7 +6,7 @@ require_once __DIR__ . '/../../vendor/autoload.php'; // Ajusta si tu path es dis
 
 class CorreoService {
     private $remitente = 'monicaromerofreelance@gmail.com'; // <- Cámbialo por tu correo real
-    private $nombreRemitente = 'Fincas Aire Puro';
+    private $nombreRemitente = 'Booking Fincas';
 
     public function enviarACliente($destinatario, $nombre, $ref, $inicio, $fin) {
         $mail = new PHPMailer(true);
