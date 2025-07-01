@@ -1,8 +1,8 @@
 <?php
 const DB_HOST = 'sql207.infinityfree.com';
-const DB_NAME = 'if0_39353980_fincas'; // Verifica en tu panel que así se llama la base de datos completa
-const DB_USER = 'if0_39353980';
-const DB_PASS = 'bUfDD2fMSLy';
+const DB_NAME = 'if0_XXXX_fincas'; // Verifica en tu panel que así se llama la base de datos completa
+const DB_USER = 'if0_XXXX';
+const DB_PASS = 'XXXX';
 
 try {
     $pdo = new PDO(
