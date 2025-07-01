@@ -1,8 +1,8 @@
 <?php
-const DB_HOST = 'localhost';
-const DB_NAME = 'fincas';
-const DB_USER = 'root';
-const DB_PASS = '';
+const DB_HOST = 'localhost'; // Ubicacion DB
+const DB_NAME = 'fincas'; // Nombre de la base de datos
+const DB_USER = 'root'; // Nombre de usuario
+const DB_PASS = ''; // Contraseña
 
 try {
     $pdo = new PDO(

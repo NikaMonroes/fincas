@@ -44,16 +44,17 @@ class RecuperacionController
             $mail->Host       = 'smtp.gmail.com';
             $mail->SMTPAuth   = true;
             $mail->Username   = 'monicaromerofreelance@gmail.com';
-            $mail->Password   = 'gxsw uukl senc ghle';
+            $mail->Password   = 'gxsw uukl senc ghle'; // Clave generada para apps
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port       = 587;
 
 
             
-            $mail->setFrom('monicaromerofreelance@gmail.com', 'Fincas Aire Puro');
+            $mail->setFrom('monicaromerofreelance@gmail.com', 'Booking Fincas');
             $mail->addAddress($correo, $usuario['nombre']);
 
             $link = "http://localhost/fincas/public/reestablecer.php?token=$token";
+            //$link = "https:/fincas.ct.ws/fincas/usuarios/reset.php?token=$token";
 
             $mail->isHTML(true);
             $mail->Subject = '🔐 Recupera tu contraseña';
