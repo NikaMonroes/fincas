@@ -81,7 +81,7 @@ class CorreoService {
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
             $mail->Username = $this->remitente;
-            $mail->Password = 'gxsw uukl senc ghle';
+            $mail->Password = 'XXXX XXXX XXXX XXXX';
             $mail->SMTPSecure = 'tls';
             $mail->Port = 587;
 

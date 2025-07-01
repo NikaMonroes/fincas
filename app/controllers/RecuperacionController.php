@@ -44,7 +44,7 @@ class RecuperacionController
             $mail->Host       = 'smtp.gmail.com';
             $mail->SMTPAuth   = true;
             $mail->Username   = 'monicaromerofreelance@gmail.com';
-            $mail->Password   = 'gxsw uukl senc ghle'; // Clave generada para apps
+            $mail->Password   = 'XXXX XXXX XXXX XXXX'; // Clave generada para apps
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port       = 587;
 
