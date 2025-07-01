@@ -16,7 +16,7 @@ class CorreoService {
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
             $mail->Username = $this->remitente;
-            $mail->Password = 'gxsw uukl senc ghle'; // Clave generada para apps
+            $mail->Password = 'XXXX XXXX XXXX XXXX'; // Clave generada para apps
             $mail->SMTPSecure = 'tls';
             $mail->Port = 587;
 
@@ -49,7 +49,7 @@ class CorreoService {
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
             $mail->Username = $this->remitente;
-            $mail->Password = 'gxsw uukl senc ghle'; //clave generada para apps
+            $mail->Password = 'XXXX XXXX XXXX XXXX'; //clave generada para apps
             $mail->SMTPSecure = 'tls';
             $mail->Port = 587;
 
